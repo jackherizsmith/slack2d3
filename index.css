@@ -1,0 +1,30 @@
+body {
+    padding:0;
+    margin:0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    font-family: sans-serif;
+}
+
+.segment{
+    opacity: .7;
+}
+
+.segment:hover{
+    opacity: 1;
+}
+
+.emotion {
+    text-anchor: middle;
+    font-size:5em;
+}
+
+.percentage {
+    font-size:4em;
+    position: fixed;
+    font-weight: 700;
+    transform: translate(50%, 50%);
+}
